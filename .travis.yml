@@ -1,0 +1,15 @@
+sudo: false
+cache: false
+language: node_js
+
+node_js:
+    - '10'
+    - '8'
+    - '6'
+
+script:
+    - npm install
+    - npm run clear
+    - npm run render
+    - npm run lint
+    - npm run test

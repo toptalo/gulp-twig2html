@@ -1,0 +1,51 @@
+{
+  "name": "gulp-twig2html",
+  "version": "0.1.0",
+  "description": "A static site compiler for gulp based on twig templates",
+  "keywords": [
+    "gulpplugin",
+    "templating",
+    "twig",
+    "html",
+    "django"
+  ],
+  "bugs": {
+    "url": "https://github.com/toptalo/gulp-twig2html/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Виктор Виктор",
+    "email": "spam.vitek@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toptalo/gulp-twig2html.git"
+  },
+  "scripts": {
+    "clear": "rimraf tmp",
+    "render": "gulp",
+    "lint": "eslint index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "extend": "^3.0.2",
+    "gulp": "^3.9.1",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3",
+    "twig": "^1.12.0"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.4.0",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

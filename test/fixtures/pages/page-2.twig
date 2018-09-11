@@ -1,0 +1,14 @@
+{% extends "../base.twig" %}
+
+{% block header %}
+    {% include "../blocks/header.twig" %}
+{% endblock %}
+
+{% block content %}
+    <p>Page 2 content</p>
+{% endblock %}
+
+{% block footer %}
+    <p>{{ parent() }} {{ year }}</p>
+{% endblock %}
+
