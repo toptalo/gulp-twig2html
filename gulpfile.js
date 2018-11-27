@@ -51,8 +51,8 @@ gulp.task('twig2html-filters', () => {
 });
 
 
-gulp.task('default', [
+gulp.task('default', gulp.parallel(
     'twig2html-pages',
     'twig2html-functions',
     'twig2html-filters'
-]);
+));
