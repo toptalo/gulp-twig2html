@@ -1,6 +1,6 @@
 {
   "name": "gulp-twig2html",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A static site compiler for gulp based on twig templates",
   "keywords": [
     "gulpplugin",
