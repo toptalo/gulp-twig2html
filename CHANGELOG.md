@@ -1,5 +1,10 @@
 # Release History
 
+## v1.1.0, 2019-01-11
+* update `twig` to 1.13.0
+* update `devDependencies`
+
+---
 ## v1.0.0, 2018-11-27
 * move to Gulp 4
 * update dependencies
