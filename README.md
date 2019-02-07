@@ -2,14 +2,14 @@
 
 # gulp-twig2html
 
-> A static site compiler for gulp based on [Twig.js](https://github.com/twigjs/twig.js/wiki)
+Gulp plugin that compile twig templates to html pages.
 
-> Twig.js is a pure JavaScript implementation of the Twig PHP templating language (https://twig.symfony.com/)
+Build upon [Twig.js](https://github.com/twigjs/twig.js), the JS port of the Twig templating language by John Roepke.
 
 ## Install
 
 ```shell
-npm install --save-dev gulp-twig2html
+npm install gulp-twig2html --save
 ```
 
 ## The "twig2html" task
