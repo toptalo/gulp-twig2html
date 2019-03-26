@@ -10,6 +10,9 @@ gulp.task('twig2html-pages', () => {
             globals: './test/fixtures/globals.json',
             context: {
                 year: 2017
+            },
+            namespaces: {
+                blocks: './test/fixtures/blocks/'
             }
         }))
         .pipe(rename({extname: '.html'}))

@@ -17,7 +17,8 @@ module.exports = params => {
         extensions: [],
         functions: {},
         filters: {},
-        context: {}
+        context: {},
+        namespaces: {}
     }, params);
 
     if (!Array.isArray(options.extensions)) {
@@ -78,7 +79,8 @@ module.exports = params => {
                     async: false,
                     allowInlineIncludes: true,
                     data: chunk.toString(),
-                    path: filePath
+                    path: filePath,
+                    namespaces: options.namespaces
                 }).render(context);
 
                 let contents = Buffer.from(output, enc);

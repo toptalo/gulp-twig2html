@@ -69,6 +69,12 @@ Default value: `'\n'`
 
 A string that is inserted between each compiled template when concatenating templates.
 
+#### options.namespaces
+Type: `Object`
+Default value: `{}`
+
+Object hash defining namespaces.
+
 ### Usage Examples
 
 ```js

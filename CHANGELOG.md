@@ -1,5 +1,13 @@
 # Release History
 
+## v1.2.0, 2019-03-26
+* add namespaces support
+* fix npm vulnerabilities
+* update `README`
+* update `dependencies`
+
+---
+
 ## v1.1.2, 2019-02-07
 * update `twig` to 1.13.2
 * update `devDependencies`
