@@ -31,15 +31,15 @@
   },
   "dependencies": {
     "extend": "^3.0.2",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.1",
     "plugin-error": "^1.0.1",
     "through2": "^3.0.1",
-    "twig": "^1.13.2"
+    "twig": "^1.13.3"
   },
   "devDependencies": {
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "gulp-rename": "^1.4.0",
-    "jest": "^24.5.0",
+    "jest": "^24.8.0",
     "rimraf": "^2.6.3"
   },
   "peerDependencies": {},
