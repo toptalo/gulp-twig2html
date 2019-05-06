@@ -1,6 +1,6 @@
 {
   "name": "gulp-twig2html",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Gulp plugin that compile twig templates to html pages",
   "keywords": [
     "gulpplugin",
