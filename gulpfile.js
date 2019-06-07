@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const rename = require('gulp-rename');
 const twig2html = require('./');
 
-gulp.task('twig2html-pages', () => {
+gulp.task('pages', () => {
     return gulp.src('test/fixtures/pages/*.twig')
         .pipe(twig2html({
             globals: './test/fixtures/globals.json',
@@ -19,7 +19,7 @@ gulp.task('twig2html-pages', () => {
         .pipe(gulp.dest('tmp'));
 });
 
-gulp.task('twig2html-functions', () => {
+gulp.task('functions', () => {
     return gulp.src('test/fixtures/functions/*.twig')
         .pipe(twig2html({
             globals: './test/fixtures/globals.json',
@@ -29,14 +29,14 @@ gulp.task('twig2html-functions', () => {
                 }
             },
             context: {
-                name: 'Victor'
+                name: 'Test'
             }
         }))
         .pipe(rename({extname: '.html'}))
         .pipe(gulp.dest('tmp'));
 });
 
-gulp.task('twig2html-filters', () => {
+gulp.task('filters', () => {
     return gulp.src('test/fixtures/filters/*.twig')
         .pipe(twig2html({
             globals: './test/fixtures/globals.json',
@@ -55,7 +55,7 @@ gulp.task('twig2html-filters', () => {
 
 
 gulp.task('default', gulp.parallel(
-    'twig2html-pages',
-    'twig2html-functions',
-    'twig2html-filters'
+    'pages',
+    'functions',
+    'filters'
 ));

@@ -96,8 +96,8 @@ gulp.task('twig2html', () => {
 #### Context hierarchy
 
 Template context extends in this order:
-* `options.globals` if provided
 * `options.context` if provided
+* `options.globals` if provided
 * template JSON context files (stored in template path, with same name,
 example: `/templates/index.json` for `/templates/index.twig`) if provided
 

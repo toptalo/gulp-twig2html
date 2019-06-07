@@ -1,5 +1,11 @@
 # Release History
 
+## v2.0.0, 2019-06-07
+* change context hierarchy
+* move renderer to separate package
+
+---
+
 ## v1.2.1, 2019-05-06
 * update `twig` to 1.13.2
 * update `devDependencies`

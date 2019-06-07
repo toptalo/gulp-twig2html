@@ -30,11 +30,10 @@
     "test": "rimraf tmp && gulp && jest"
   },
   "dependencies": {
-    "extend": "^3.0.2",
+    "@toptalo/twig-renderer": "^0.1.0",
     "gulp": "^4.0.1",
     "plugin-error": "^1.0.1",
-    "through2": "^3.0.1",
-    "twig": "^1.13.3"
+    "through2": "^3.0.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
