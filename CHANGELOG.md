@@ -1,5 +1,11 @@
 # Release History
 
+## v2.0.1, 2019-07-16
+* update `dependencies`
+* update `devDependencies`
+
+---
+
 ## v2.0.0, 2019-06-07
 * change context hierarchy
 * move renderer to separate package
