@@ -1,5 +1,10 @@
 # Release History
 
+## v2.0.2, 2019-07-17
+* remove node 6 from travis tests
+
+---
+
 ## v2.0.1, 2019-07-16
 * update `dependencies`
 * update `devDependencies`
